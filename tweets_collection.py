@@ -33,7 +33,7 @@ class TwitterStreamer():
                          'design vs art']  #create keywords list
         fetched_tweets_filename = "fetched_tweets.txt"
         # Invokes the streaming to collect tweets
-        self.twitter_streamer.stream_tweets(fetched_tweets_filename,
+        self.stream_tweets(fetched_tweets_filename,
                                             hash_tag_list)
 
 
